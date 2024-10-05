@@ -1,2 +1,2 @@
 # Project-Recipes-TOP-
-first page html with the odin project
+this is my first work about a little page with the odin project course , ok let's go .
