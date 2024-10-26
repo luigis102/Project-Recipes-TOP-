@@ -1,27 +1,67 @@
 body {
-    background-color: brown;
-}
-h1{
-    color: white;
+    background-color: #f4f4f4;
     text-align: center;
-    font-style: oblique;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-a,.fl .lists,p{
-    color: burlywood;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif; 
-    text-decoration: none;   
+/* Stile per il contenitore principale */
+.class-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
 }
 
-h2,h4,div,li{
-    color: burlywood;
+/* Stile per il titolo */
+h1 {
+    color: #4a4a4a;
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin: auto;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+    width: fit-content;
 }
 
-a:hover{
-    color: black;
-}
-ul{
-    text-decoration: none;
+/* Stile per la lista e gli elementi */
+ul {
     list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+li:hover {
+    background-color: #f9f9f9;
+    transform: scale(1.05);
+}
+
+/* Stile per i link */
+a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: bold;
+    display: block;
+}
+
+a:hover {
+    color: #ff5733;
+}
+
+/* Stile per rendere i link centrati */
+ul, li, a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
